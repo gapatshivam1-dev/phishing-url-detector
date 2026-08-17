@@ -1,5 +1,9 @@
 # Phishing URL Detector 🔐
 
+## 🌐 Live Demo
+
+🚀 [Try the Phishing URL Detector](https://phishing-url-detector-cdgv.onrender.com)
+
 A machine-learning-based web application that analyzes a URL and predicts whether it is **legitimate or potentially phishing**.
 
 The project extracts features from a URL, uses a trained machine-learning model to classify it, and displays the prediction through a simple web interface.
