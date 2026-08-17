@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0A0E1A;
+    color: #E8ECF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #111828;
+    padding: 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 480px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 16px;
+    border-radius: 6px;
+    border: 1px solid #232D45;
+    background: #161F33;
+    color: white;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 14px;
+    padding: 12px 24px;
+    background: #3ECF8E;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 24px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.result.safe {
+    background: #1F5C42;
+}
+
+.result.phishing {
+    background: #5C1F1F;
+}

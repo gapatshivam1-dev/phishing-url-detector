@@ -1,0 +1,9 @@
+﻿venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+model/model.pkl
+data/raw_urls.csv
